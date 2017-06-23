@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "ResolveRelationship",
+      "samples": [
+        "who is my {person}",
+        "what is my {person}",
+        "what is a {person}",
+        "tell me what a {person} is",
+        "tell me who my {person} is",
+        "what my {person} is"
+      ],
+      "slots": [
+        {
+          "name": "person",
+          "type": "TYPE_OF_RELATIONSHIP",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "TYPE_OF_RELATIONSHIP",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "parent",
+            "synonyms": [
+              "mom",
+              "dad",
+              "mommy",
+              "daddy",
+              "mum"
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "sibling",
+            "synonyms": [
+              "brother",
+              "sister"
+            ]
+          }
+        },
+        {
+          "id": "",
+          "name": {
+            "value": "friend",
+            "synonyms": [
+              "buddy",
+              "bud",
+              "chum",
+              "pall",
+              "best friend",
+              "B.F.F."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
