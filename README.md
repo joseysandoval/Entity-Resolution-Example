@@ -20,4 +20,5 @@ This skill will:
 
 1. Learn more about [ASK entity resolution](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/entity-resolution-for-slot-types)
 2. Learn more about the [interaction model types node](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/entity-resolution-for-slot-types#slot-type-json)
-3. Learn more about the [Entity Resolution intent request]
+3. Learn more about the [Entity Resolution intent request](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/entity-resolution-for-slot-types#intentrequest-changes)
+
