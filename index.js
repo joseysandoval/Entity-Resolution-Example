@@ -59,11 +59,11 @@ var handlers = {
     	    speechOutput = "Sorry, "+personSlotRaw+" is not included in this skill. Anything else?";
     	}
     	
-        this.emit(":ask",speechOutput);
+        this.emit(":ask",speechOutput, speechOutput);
     },	
 	'Unhandled': function () {
         speechOutput = "The skill didn't quite understand what you wanted.  Do you want to try something else?";
-        this.emit(':ask', speechOutput);
+        this.emit(':ask', speechOutput, speechOutput);
     }
 };
 
